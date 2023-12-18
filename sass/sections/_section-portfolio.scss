@@ -1,0 +1,21 @@
+.section-portfolio {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    max-width: 100%;
+    background: linear-gradient(0deg, #F5FBFF, #F5FBFF), #F4F8F9;
+}
+
+.section-potrfolio__title {
+    margin-bottom: 65px;
+}
+
+.section-portfolio__cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.section-portfolio__card-link {
+    
+}

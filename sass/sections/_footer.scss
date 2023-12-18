@@ -1,0 +1,35 @@
+.footer {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: #333333;
+    text-align: left;
+}
+
+.footer__text-paragraph {
+    max-width: 760px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #B0B0B0;
+
+    a {
+        text-decoration-line: underline;
+        color: #FFFFFF;
+
+        transition: color 0.2s ease-in;
+    
+        &:hover, &:focus {
+            color: #FBDC4D;
+        }
+    }
+}
+
+.footer__text-copyright {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #FFFFFF;
+
+    margin-bottom: 10px;
+}
